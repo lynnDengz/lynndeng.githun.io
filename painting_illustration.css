@@ -1,0 +1,213 @@
+.painting_illustration {
+    float: left;
+    width: 566px;
+    height: 35px;
+    padding: 10px 50px;
+
+}
+
+.painting_illustration h2 {
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+
+    line-height: 35px;
+    color: white;
+}
+
+.banner {
+    /* width: 1920px; */
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    background: url(../作品集/works/banner_top_2.png);
+    margin-bottom: 40px;
+    /* 图是糊的注意更换 */
+}
+
+.artical {
+    margin: 0 auto;
+    width: 1065px;
+    height: 300px;
+}
+
+.artical h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    /* letter-spacing: -1px; */
+    line-height: 1.5;
+
+}
+
+.painting {
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 400;
+
+    padding-bottom: 35px;
+
+    font-size: 20px;
+
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.major_work ul {
+    margin: 0 auto;
+    width: 1065px;
+
+}
+
+.major_work ul li {
+    float: left;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.major_work ul li img {
+    margin: 0 auto;
+    width: 480px;
+    height: 480px;
+}
+
+.major_work ul li h4 {
+    width: 480px;
+    height: 480px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    /* letter-spacing: -1px; */
+    line-height: 1.5;
+    /* background-color: aqua; */
+}
+
+.paintings {
+    /* position: relative; */
+    margin: 0 auto;
+    width: 1053px;
+    /* background-color: pink; */
+
+}
+
+.paintings ul li {
+    float: left;
+    width: 340px;
+    height: 480px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+.paintings ul li img {
+    /* position: absolute; */
+    width: 340px;
+    height: 480px;
+
+
+}
+
+.paintings ul li:nth-child(6) {
+    /* position: absolute; */
+    background-color: transparent;
+    width: 340px;
+    height: 480px;
+
+
+}
+
+
+/* illustration */
+
+.illustration {
+    margin-top: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+
+    padding-bottom: 35px;
+    /* padding-top: 35px; */
+    font-size: 20px;
+
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.illustrations {
+    /* position: relative; */
+    margin: 0 auto;
+    width: 1053px;
+    /* background-color: pink; */
+
+}
+
+.illustration_ghost img {
+    float: left;
+    height: 350px;
+    width: 350px;
+}
+
+.illustration_sani img {
+    float: left;
+    height: 350px;
+    width: 350px;
+
+}
+
+.illustration_tanqin img {
+    float: left;
+    height: 350px;
+    width: 350px;
+}
+
+.illustration_xiyang img {
+    float: left;
+    height: 600px;
+    width: 384px;
+}
+
+.illustration_jingao img {
+    float: left;
+    /* padding-top: 20px; */
+    height: 467px;
+    width: 667px;
+
+}
+
+.illustration_xinnian img {
+    float: right;
+    height: 650px;
+    width: 377px;
+}
+
+.illustration_niao img {
+    float: right;
+    height: 517px;
+    width: 676px;
+}
+
+
+
+/* .illustrations ul li {
+    float: left;
+    width: 340px;
+    height: 480px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+.illustrations ul li img {
+    /* position: absolute; */
+/* width: 340px;
+    height: 480px;} */

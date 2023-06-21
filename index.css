@@ -1,0 +1,209 @@
+.banner {
+    /* width: 1920px; */
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    background: url(../作品集/works/banner_top_2.png);
+    margin-bottom: 40px;
+    /* 图是糊的注意更换 */
+}
+
+/* .banner img {
+    width: 1920px;
+    height: 400px;
+    overflow: hidden;
+
+} */
+
+.artical {
+    margin: 0 auto;
+    width: 1065px;
+    height: 300px;
+}
+
+.artical h4 {
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: -1px;
+    line-height: 1.5;
+
+}
+
+.social_media ul li {
+    margin-top: 25px;
+    float: left;
+    width: 120px;
+    height: 30px;
+    /* background-color: blueviolet; */
+}
+
+.social_media ul li .ins_icon,
+.social_media ul li .link_icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    /* background-color: aqua; */
+}
+
+/* .ins_icon {
+    background: url(../作品集/fonts/instagram.png);
+}
+
+.link_icon {
+    background: url(../作品集/fonts/linkedin-fill.png);
+} */
+
+.link_icon img,
+.ins_icon img {
+    height: 30px;
+    width: 30px;
+}
+
+
+.social_media ul li a {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: #444; */
+}
+
+/* banner end */
+
+/* wokrs start */
+.works {
+    /* position: relative; */
+    margin: 0 auto;
+    width: 1053px;
+    /* background-color: pink; */
+
+}
+
+
+.works h2 {
+    padding-bottom: 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.works ul li {
+    float: left;
+    width: 340px;
+    height: 480px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+}
+
+.works ul li img {
+    position: absolute;
+    width: 340px;
+    height: 480px;
+
+
+}
+
+.works ul li p {
+
+    position: absolute;
+    z-index: 2;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 4px;
+
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+
+    line-height: 480px;
+    text-align: center;
+
+    opacity: 0%;
+    padding-left: 15px;
+
+
+
+}
+
+
+.works ul li:hover img {
+    transition: 1s;
+    -webkit-filter: blur(10px);
+    /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.works ul li:hover p {
+    transition: 1s;
+    color: white;
+    opacity: 100%;
+
+}
+
+.clear {
+    clear: both;
+}
+
+/* .works ul li:nth-child(3) {
+    margin-right: 0;
+} */
+
+
+
+
+/* works end */
+
+/* bottom banner */
+.bottom_banner {
+    margin-top: 45px;
+    height: 400px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    background: url(../作品集/banner/bottom\ banner.png);
+    margin-bottom: 130px;
+
+}
+
+/* contact */
+.contact {
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact h4 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: -1px;
+    line-height: 1.4;
+    text-align: center;
+
+
+}
+
+.contact p {
+    margin-top: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.contact p a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* footer */
+.footer {
+    height: 360px;
+    width: 100%;
+    background-color: #211b1d;
+}

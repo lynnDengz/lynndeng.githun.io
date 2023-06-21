@@ -1,0 +1,70 @@
+.photography {
+    float: left;
+    width: 566px;
+    height: 35px;
+    padding: 10px 50px;
+
+}
+
+.photography h2 {
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+
+    line-height: 35px;
+    color: white;
+}
+
+.banner {
+    /* width: 1920px; */
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    background: url(../作品集/works/Photography.png);
+    margin-bottom: 40px;
+    /* 图是糊的注意更换 */
+}
+
+.artical {
+    margin: 0 auto;
+    width: 1065px;
+    height: 300px;
+}
+
+.artical h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    /* letter-spacing: -1px; */
+    line-height: 1.5;
+
+}
+
+.works {
+    /* position: relative; */
+    margin: 0 auto;
+    width: 1053px;
+    /* background-color: pink; */
+
+}
+
+.works ul li {
+    float: left;
+    width: 340px;
+    height: 480px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+.works ul li img {
+    /* position: absolute; */
+    width: 340px;
+    height: 480px;
+
+
+}

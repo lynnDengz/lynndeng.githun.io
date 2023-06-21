@@ -1,0 +1,133 @@
+.animation {
+    float: left;
+    width: 566px;
+    height: 35px;
+    padding: 10px 50px;
+
+}
+
+.animation h2 {
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+
+    line-height: 35px;
+    color: rgb(141, 138, 138);
+}
+
+.banner {
+    /* width: 1920px; */
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+    background: url(../作品集/animation/animation_banner.png);
+    margin-bottom: 40px;
+    /* 图是糊的注意更换 */
+}
+
+.artical {
+    margin: 0 auto;
+    width: 1065px;
+    height: 300px;
+}
+
+.artical h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    /* letter-spacing: -1px; */
+    line-height: 1.5;
+
+}
+
+
+.character {
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 400;
+
+    padding-bottom: 35px;
+
+    font-size: 20px;
+
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.works {
+    /* position: relative; */
+    margin: 0 auto;
+    width: 1053px;
+    /* background-color: pink; */
+
+}
+
+.works h4 {
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 400;
+
+    padding-bottom: 35px;
+
+    font-size: 20px;
+
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.works ul li {
+    float: left;
+    width: 340px;
+    height: 480px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.works ul li img {
+    /* position: absolute; */
+    width: 340px;
+    height: 480px;
+    object-fit: cover;
+
+
+}
+
+.character img {
+    width: 1065px;
+    height: 100%;
+
+}
+
+.background {
+    margin: 0 auto;
+
+    font-style: normal;
+    font-weight: 400;
+
+    padding-bottom: 35px;
+
+    font-size: 20px;
+
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.background img {
+    width: 1065px;
+    height: 100%;
+
+}

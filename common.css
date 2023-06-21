@@ -1,0 +1,128 @@
+.body {
+    width: 1920px;
+}
+
+.picture {
+
+    height: 1280px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background: url(../作品集/works/banner_top_2.png);
+    margin-bottom: 20px;
+}
+
+.picture:hover {
+    transition: 1s;
+    -webkit-filter: blur(10px);
+    /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+/* head start */
+
+.head {
+    position: relative;
+
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    /* scroll-behavior: initial; */
+    /* background-color: pink; */
+    /* position: fixed;
+    background-color: ; */
+    /* background-color: rgba(208, 209, 205, 80%); */
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(208, 209, 205);
+    /* background-color: skyblue; */
+
+}
+
+.head nav ul li {
+    float: left;
+    /* width: 150px; */
+    /* padding-top: 45px;
+    padding-left: 80px; */
+    /* text-align: center; */
+    /* margin: auto 0; */
+    padding-left: 80px;
+
+}
+
+.head nav ul li a {
+    font-family: sans-serif;
+    font-size: 18px;
+    /* color: #444; */
+}
+
+.head nav logo .a h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    /* background-color: #6ba6b6; */
+
+}
+
+.head nav logo {
+    float: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+
+}
+
+
+.name {
+    /* position: absolute;
+    top: 110px;
+    left: 110px; */
+    /* padding-top: 35px; */
+    height: 80px;
+    width: 1060px;
+    margin: 0 auto;
+
+    /* background-color: pink; */
+}
+
+.lynn {
+    padding-top: 15px;
+    float: left;
+    width: 566px;
+    height: 35px;
+    /* padding-left: 110px; */
+
+
+}
+
+.lynn h2 {
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+
+    line-height: 35px;
+
+}
+
+.welcome {
+    float: right;
+    /* padding-right: 120px; */
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+/* head end */

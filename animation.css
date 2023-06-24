@@ -24,7 +24,7 @@
     width: 100%;
     height: 400px;
     background-color: antiquewhite;
-    background: url(../作品集/animation/animation_banner.png);
+    background: url(animation/animation_banner.png);
     margin-bottom: 40px;
     /* 图是糊的注意更换 */
 }
